@@ -1,0 +1,25 @@
+.header--logo {
+  padding: 0 1rem;
+}
+
+.header--logo img {
+  width: 350px;
+  height: 350px;
+  border: 5px solid rgba(255, 255, 255, 0.68);
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .header--logo img {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header--logo img {
+    width: 200px;
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=Logo.css.map */

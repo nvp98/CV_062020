@@ -1,0 +1,29 @@
+.skill__wrap {
+  padding: 6rem 0;
+  display: flex;
+  justify-content: center;
+  .skill {
+    .skill__flex {
+      display: flex;
+      flex-flow: row;
+      @media screen and(max-width:910px) {
+        flex-flow: column;
+      }
+      .col-4 {
+        padding: 0 1rem;
+        @media screen and(max-width:910px) {
+          margin-bottom: 1rem;
+          width: 100%;
+          padding: 0 0;
+        }
+        .section-box {
+          background: #fff;
+          border-radius: 5px;
+          padding: 30px;
+          @media screen and(max-width:910px) {
+          }
+        }
+      }
+    }
+  }
+}

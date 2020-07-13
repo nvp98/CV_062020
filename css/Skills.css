@@ -1,0 +1,47 @@
+.skill__wrap {
+  padding: 6rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skill__wrap .skill .skill__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+@media screen and (max-width: 910px) {
+  .skill__wrap .skill .skill__flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+}
+
+.skill__wrap .skill .skill__flex .col-4 {
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 910px) {
+  .skill__wrap .skill .skill__flex .col-4 {
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0 0;
+  }
+}
+
+.skill__wrap .skill .skill__flex .col-4 .section-box {
+  background: #fff;
+  border-radius: 5px;
+  padding: 30px;
+}
+/*# sourceMappingURL=Skills.css.map */

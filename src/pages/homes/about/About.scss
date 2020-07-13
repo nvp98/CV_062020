@@ -1,0 +1,21 @@
+.about__wrap {
+  padding: 6rem 0;
+  display: flex;
+  justify-content: center;
+  color: #8c8c8c;
+  background-color: #fff;
+  .about {
+    .row__wrap {
+      .col-8 {
+        p {
+          padding: 1rem 8rem;
+        }
+      }
+      .col-4 {
+        p {
+          padding: 1rem 2rem;
+        }
+      }
+    }
+  }
+}

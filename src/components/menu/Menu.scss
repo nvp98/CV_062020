@@ -1,0 +1,56 @@
+.menu__wrap {
+  background: #008b8b;
+  padding: 0.1rem;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  input {
+    display: none;
+  }
+  label {
+    color: #fff;
+    font-family: "Overlock", cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    display: none;
+    @media screen and (max-width: 910px) {
+      display: block;
+    }
+  }
+  #repo_menu:checked ~ .menu {
+    @media screen and (max-width: 910px) {
+      display: none;
+    }
+  }
+  .menu {
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media screen and (max-width: 910px) {
+        display: block;
+      }
+      li {
+        display: inline-block;
+        @media screen and (max-width: 910px) {
+          display: block;
+          text-align: center;
+        }
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-family: "Overlock", cursive;
+          padding: 1rem 2rem;
+          font-size: 1.2rem;
+          @media screen and (max-width: 910px) {
+            font-size: 2rem;
+            padding: 0 0;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 910px) {
+    }
+  }
+}

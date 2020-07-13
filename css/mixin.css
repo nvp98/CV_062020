@@ -1,0 +1,98 @@
+.title {
+  font-size: 4vw;
+  text-align: center;
+  color: #008b8b;
+  border-bottom: 4px double rgba(247, 197, 106, 0.35);
+  padding-bottom: 0.2em;
+  margin-bottom: 1em;
+}
+
+/* For desktop: */
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.row__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Overlock", cursive;
+}
+
+body #toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+  border: none;
+  text-indent: 100%;
+  background: url(../../img/move-up.png) no-repeat 0px 0px;
+  z-index: 999;
+}
+/*# sourceMappingURL=mixin.css.map */
