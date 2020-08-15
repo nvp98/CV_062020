@@ -1,10 +1,14 @@
 .header--info {
   width: 50%;
   padding-left: 30px;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    text-align: center;
+  }
   h2 {
     background-color: #f3e000;
     color: black;
-    font-size: 1.4vw;
+    font-size: 1.4em;
     padding: 0.5rem 1.5rem;
     display: inline-block;
     margin-top: 0;
@@ -27,11 +31,17 @@
     color: #c7c7c7;
     margin-top: 0.8em;
     letter-spacing: 6px;
+    @media screen and (max-width: 500px) {
+      font-size: 1em;
+    }
   }
   p {
     font-size: 3vw;
     color: #fff;
     margin: 0.5em 0 0;
+    @media screen and (max-width: 500px) {
+      font-size: 2em;
+    }
   }
   .header__info--address {
     border-top: 1px solid #afafaf;
@@ -39,6 +49,8 @@
     p {
       color: whitesmoke;
       font-size: 20px;
+
+      font-family: Comic Sans MS cursive;
       @media screen and (max-width: 800px) {
         font-size: 16px;
       }

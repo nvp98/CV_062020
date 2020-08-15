@@ -1,7 +1,7 @@
 .header__wrapper {
   padding: 56px 0px;
-  background: url(../../assets//img/a.jpg) no-repeat center 0px;
-  background-size: cover;
+  background: url(../../assets//img/background1.jpg) no-repeat center 0px;
+  background-size: 100% 100%;
   width: 100%;
   height: auto;
   display: flex;
@@ -11,7 +11,7 @@
     width: 100%;
     max-width: 1024px;
     display: flex;
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
       flex-direction: column;
       align-items: center;
       justify-content: center;

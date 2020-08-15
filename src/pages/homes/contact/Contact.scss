@@ -36,6 +36,22 @@
               height: 3rem;
               vertical-align: middle;
             }
+            img {
+              margin-right: 1rem;
+              width: 3rem;
+              height: 3rem;
+              vertical-align: middle;
+            }
+            span {
+              a {
+                text-decoration: none;
+                font-size: 1.5rem;
+                font-weight: bold;
+                font-family: "Overlock", cursive;
+                display: inline-block;
+                color: black;
+              }
+            }
             h6 {
               font-size: 1.5rem;
               font-family: "Overlock", cursive;
