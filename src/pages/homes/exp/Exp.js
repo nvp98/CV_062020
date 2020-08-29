@@ -22,10 +22,10 @@ export default function Exp() {
         </div>
         <div className="row__wrap work__info">
           <div className="col-6 work__left">
-            <h4>2014-2016</h4>
+            <h4>2018-2019</h4>
           </div>
           <div className="col-6 work_right">
-            <h5>Company Name</h5>
+            <h5>DHS CO.,LTD</h5>
             <p>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
