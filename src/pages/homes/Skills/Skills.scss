@@ -22,6 +22,11 @@
           padding: 30px;
           @media screen and(max-width:910px) {
           }
+          ul {
+            li {
+              font-size: 1.5vw;
+            }
+          }
         }
       }
     }

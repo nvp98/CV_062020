@@ -17,10 +17,12 @@ export default function Skills() {
           </div>
           <div className="col-4">
             <div className="section-box">
-              <h2>Database</h2>
+              <h2>Frameworks/ Platforms</h2>
               <ul>
-                <li>JavaScript</li>
-                <li>HTML,CSS</li>
+                <li>ReactJS, Redux</li>
+                <li>NodeJS, Express, SocketIO</li>
+                <li>JSX, ES6</li>
+                <li>Bootstrap</li>
               </ul>
             </div>
           </div>
@@ -28,8 +30,9 @@ export default function Skills() {
             <div className="section-box">
               <h2>Others</h2>
               <ul>
-                <li>JavaScript</li>
-                <li>HTML,CSS</li>
+                <li>Git, SVN</li>
+                <li>Used to use NodeJS and ReactJS to build basic project</li>
+                <li>Teamwork</li>
               </ul>
             </div>
           </div>

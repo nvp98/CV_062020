@@ -20,7 +20,12 @@ export default function Info() {
           E-MAIL <span>vinhphuoc1892@gmail.com</span>
         </p>
         <p>
-          WEBSITE <span>23-06-1980</span>
+          WEBSITE{" "}
+          <span>
+            <a href="https://nguyenvinhphuoc.herokuapp.com/">
+              https://nguyenvinhphuoc.herokuapp.com
+            </a>
+          </span>
         </p>
       </div>
     </div>
